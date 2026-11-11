@@ -1,0 +1,13 @@
+fName = str(input("Enter Your First Name:")).title()
+lName = (input("Enter Your Last Name:")).title()
+section = str(input("Enter Your Section:")).upper()
+fSubject = str(input("Enter Your Favourite Subject:")).title()
+word_count = len(fName) + len(lName)
+
+print("")
+
+print("Name: ", fName, lName)
+print("Name Code: ", fName.upper(), lName.upper())
+print("Section: ", section)
+print("Favourite Subject: ", fSubject)
+print("Character Count: ", word_count)
