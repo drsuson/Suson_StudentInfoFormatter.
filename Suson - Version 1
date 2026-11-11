@@ -1,0 +1,10 @@
+fName = str(input("Enter Your First Name:"))
+lName = (input("Enter Your Last Name:"))
+section = str(input("Enter Your Section:"))
+fSubject = str(input("Enter Your Favourite Subject:"))
+
+print("")
+
+print("Name: ", fName, lName)
+print("Section: ", section)
+print("Favourite Subject: ", fSubject)
